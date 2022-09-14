@@ -12,6 +12,7 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
+
         final static Logger logger = Logger.getLogger(classname.class);
         
         //logs a debug message
@@ -26,5 +27,6 @@ public final class App {
 	    logger.error("This is error", exception);
 
         System.out.println("Hello World!");
+        
     }
 }
